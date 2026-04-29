@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #FFFFFF; stop-opacity: 1;"/>
+      <stop offset="100%" style="stop-color: #E0E0E0; stop-opacity: 1;"/>
+    </linearGradient>
+    <filter id="feather-filter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur"/>
+      <feComposite in="blur" in2="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  <g>
+    <path d="M320 400c-80 0-160-60-160-160 0-80 80-160 160-160s160 80 160 160c0 100-80 160-160 160z" fill="url(#body-gradient)"/>
+    <path d="M280 140c-20 0-30-60-50-60-30 0-40 40-60 60a160 160 0 0 0-20 50c0 40 20 80 40 90s60 10 80-10 20-30 20-50-20-80-30-80z" fill="white"/>
+    <path d="M200 200c40 40 100 25 100-80l-40-40c-20 25-50 25-70 70z" fill="#D1D1D1"/>
+    <ellipse cx="250" cy="180" rx="8" ry="5" fill="#353535"/>
+    <path d="M320 350c20-20 40-40 70-50 15 10 35 20 40 40-15 25-30 60-60 60-15 0-35-10-50-10z" fill="white" filter="url(#feather-filter)"/>
+    <path d="M330 90c15-25 40-20 70 0 30 20 30 40 20 60-5 10-15 15-20 15-35 0-25-20-30-30-10-20-40-15-40-30z" fill="#D1D1D1"/>
+    <path d="M180 320c20 30 50 40 50 20-30 0-50-20-50-50z" fill="#C7C7C7"/>
+    <path d="M190 300c0 10-10 10-10 0s10-10 10 0z" fill="#353535"/>
+    <path d="M320 400c20 30 60 40 60 0s-40-10-60 0z" fill="#C7C7C7"/>
+  </g>
+  <path fill="#B2B2B2" d="M0 480h640v10H0z"/>
+</svg>
